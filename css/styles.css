@@ -1,0 +1,141 @@
+/* Header */
+header {
+    background-color: #010101;
+    height: 64px;
+    padding: 21px 30px 0 40px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: #a19071;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+/* Dropdown Contener */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right; 
+}
+
+/* Dropdown Button*/
+.dropbtn { 
+    background-color: #010101;
+    color: #a19071;
+    padding: 13px;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.dropbtn:checked, .dropbtn:hover{ 
+    background-color: #a19071;
+    color: #010101;
+}
+
+/* Houses */
+.dropdown-Houses {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color:#a19071;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    border: 1px solid #010101;
+}
+
+.dropdown-Houses h3 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: #010101;
+    padding: 12px 16px;
+    margin: 0;
+}
+
+.dropdown-Houses h3:hover { 
+    background-color: #5c4a33;
+}
+
+.show {
+    display: block;
+}
+
+
+/*body*/
+#cardcontainer {
+  background-color: #5c4a33;
+  border: 3px solid #010100;
+  margin: 10px;
+  padding: 3px 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cards {
+  background-color: #a19071;
+  border: 5px dotted #795E3B;
+  margin: 10px;
+  padding: 10px;
+  height: 365px;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards img {
+  height: 250px;
+  width: 250px;
+  border-radius: 100px;
+}
+
+.cards img:hover {
+  transform: scale(1.07); 
+}
+
+.card-content {
+  margin: 13px;
+}
+
+.card-content p {
+    font-size: 22px;               
+    font-weight: 500;              
+    letter-spacing: 1.5px;          
+    line-height: 1.2;               
+    padding: 4px 0;                
+    color: #010101;  
+    text-align: center;             
+    text-shadow: 1px 1px 2px #bbb;  
+}
+
+/* Button */
+#seemore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seemore button{
+    color: #010100;
+    background-color: #5c4a33;
+    margin-bottom: 10px;
+    height: 42px;
+    width: 20%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}

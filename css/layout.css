@@ -1,0 +1,32 @@
+/* Font */
+@font-face {
+  font-family: 'HarryP';
+  src: url('../font/HarryP.woff2') format('woff2'),
+       url('../font/HarryP.woff') format('woff');
+}
+
+/* All */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'HarryP', cursive;
+}
+
+/* Body*/
+body {
+    background-color: #795E3B;
+}
+
+/* Footer*/
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #5c4a33;
+    text-align: center;
+    padding: 3px;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 99.6%;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
