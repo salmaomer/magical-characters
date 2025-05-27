@@ -1,6 +1,6 @@
 const cardContainer = document.getElementById("cardcontainer");
 const dropdownContainer = document.getElementById("dropdown-container");
-let allCharacters = []; // global to store filtered/full data
+let allCharacters = []; 
 let shownCount = 0;
 
 async function fetchCharacters() {
@@ -19,7 +19,6 @@ async function fetchCharacters() {
 }
 
 
-      // track how many characters shown per click
 
 function RenderData(characters, limit = 16) {
   cardContainer.innerHTML = '';
